@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="the hangar website">
+
+    <title>The Hangar</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="./output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+</head>
+<!--  -->
+
+<body class="scroll-smooth">
+    <nav class="bg-neutral-300 py-3">
+        <ul class=" flex items-center justify-around">
+            <li class="">Vehicles</li>
+            <li class="">Contact</li>
+            <li style="font-family: 'Allura', cursive;" class=" text-5xl font-bold text-gray-900">the Hangar</li>
+            <li class="">About</li>
+            <li class="">FAQ</li>
+        </ul>
+    </nav>
+
+
+    <div class="relative w-full h-screen bg-cover bg-center flex justify-center" style="background-image: url('https://uploads-ssl.webflow.com/62c8d8b438027f85b7fba7c9/62cb084d827b655a0f87b89b_ADV09760%20(1).jpg');">
+        <!-- bg text,darken -->
+        <div style="font-family: 'Allura', cursive" class="absolute text-9xl p-10 text-white">the Hangar</div>
+        <div class="absolute inset-0 bg-black/50"></div> 
+
+        <!-- <div 
+        style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" 
+        class="absolute bottom-50 left-30 z-50 text-white font-bold text-xl bg-blue-950  rounded-xl p-2">
+            Your one stop shop for vehicles of all kinds. 
+        </div> -->
+        <div class="absolute bottom-50 left-30 z-50">
+            <div class="relative text-white font-bold text-xl bg-blue-950/50 rounded-xl p-2">
+                
+                Your one stop shop for vehicles of all kinds. 
+                
+            </div>
+
+            <a href="#jets" class=" absolute p-1 bg-neutral-300 text-blue-950 font-semibold px-4 py-2 rounded hover:bg-yellow-300 transition">Browse</a>
+        </div>
+
+        <!-- <div class="absolute bottom-12 left-10 z-50"> -->
+            
+        </div>
+    </div>
+
+    <div id="jets" class="p-6"> <!-- start of available jets -->
+        <h2 class="text-2xl py-5"> Available Jets </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/787BBJ.jpg" 
+                alt="787bbj"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Boeing Business Jet, 787-9</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/cirrusvisionsf50.jpg"
+                alt="cirrusvisionsf50"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Cirrus Vision SF-50</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/dassualtfalcon7x.jpg"
+                alt="dassualtfalcon7x"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Dassualt Falcon 7X</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/citationlatitude.jpg"
+                alt="citationlatitude"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Citation Latitude</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/citationlongitude.jpg"
+                alt="citationlongitude"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Citation Longitude</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/acj350_xwb.webp"
+                alt="acj350_xwb"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Airbus ACJ A350-950 XWB</div>
+                </div>
+            </div>
+    </div>   <!-- end of available jets -->
+
+
+    <div id="cars" class="p-0"> <!-- start of available cars -->
+        <h2 class="text-2xl pt-8 pb-6"> Available Vehicles </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/audis8.jpg" 
+                alt="audis8"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">2024 Audi S8</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/bmw7series.jpg"
+                alt="bmw7series"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">BMW 7 Series, 760i</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/2025-rolls-royce-ghost-series-ii.jpg"
+                alt="2025-rolls-royce-ghost-series-ii"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">2025 Rolls Royce Ghost Series-II</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/718gt4.jpg"
+                alt="718gt4"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Porsche 718 Cayman GT4</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/century.jpg"
+                alt="century"
+                class="w-full max-h-40 object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Toyota Century</div>
+                </div>
+            </div>
+
+            <div class="bg-black rounded-3xl text-amber-50 overflow-hidden relative"> 
+                <img 
+                src="assets/corvetteeray.webp"
+                alt="corvetteeray"
+                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                
+                <div class="absolute bottom-0.5 p-5">
+                    <div class="bg-blue-950 rounded-md p-0.5 px-2">Chevrolet Corvette E-Ray</div>
+                </div>
+            </div>
+    </div>   <!-- end of available cars -->
+
+    <section>
+        <h1 class="text-4xl text-center pt-10 pb-5">FAQ</h1>
+
+        <div id="questions" class="flex justify-center items-center m-5">
+            <div class="bg-neutral-800 rounded-2xl p-5">
+                <div class="text-lg text-center text-white">What types of vehicles and aircraft do you sell?</div>
+                <div class="text-white py-1">We offer a wide selection of luxury vehicles, including but not limited to, sedans, SUVs, and sports cars, private jets, helicopters, and commercial aircraft. </div>
+            </div>
+        </div>
+
+        <div id="questions" class="flex justify-center items-center m-5">
+            <div class="bg-neutral-800 rounded-2xl p-5">
+                <div class="text-lg text-center text-white">Do we cater to international customers?</div>
+                <div class="text-white py-1">
+                    We orient our services such that the location of our customers does not play a role in the quality of service they recieve. 
+                    We offer 24/7 online and call-in assistance, and have a wide network of approved service partners to ensure you never have 
+                    to worry about transportation again.
+                    </div>
+            </div>
+        </div>
+
+        <div id="questions" class="flex justify-center items-center m-5">
+            <div class="bg-neutral-800 rounded-2xl p-5">
+                <div class="text-lg text-center text-white">What warranties come with the purchase?</div>
+                <div class="text-white py-1">
+                    We pride ourselves in having one of the most gracious warranty programs in the aviation sales industry. 
+                    While the warranty varies from product to product, we cover mechanics fees at no extra cost for the first few years 
+                    after the purchase of a new jet, and provide full coverage (parts and labour) when you purchase one of our ground transportation
+                    vehicles as well for a period of 5 years.  
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="relative inline-block">
+            <input type="checkbox" id="menutoggle1" class="peer hidden">
+            <label for="menutoggle1"></label>
+        </div> -->
+
+    </section>
+
+    <section>
+        <h1 class="text-4xl text-center pt-10 pb-5">About Us</h1>
+        <div class="bg-amber-400 rounded-3xl">
+            <img 
+            src="assets/pfp.gif" 
+            alt="portrait"
+            class="float-left m-3 rounded-2xl w-96">
+
+            <div class="p-5">
+                My name is Baby Gronk. I'm 33 years old. My home is in the northeast section of Ohio, where all the Skibidi Toilets are, 
+                and I'm not an NPC. I work as an employee for the GYATT Fanum Tax Rizz University, and I'm mewing looksmax every day by 
+                8pm at the latest. I don't griddy, but I occasionally jelq. I'm in Tilted Towers by 11pm and make sure I get 8 hours of 
+                gooning, no matter what. After having a grimace shake and doing about 20 minutes of sus ayo poses before going to bed, I
+                 usually have no problem edging until morning. I was told there were no Peppinos at my last goonsesh. I'm trying to 
+                 explain that I'm a Sigma who wishes to rizz a very skibidi toilet. I take care not to fanum tax myself with any Peppinos 
+                 like gooning or cringing that would cause me to lose rizz at Ohio. This is how I deal with skibidi, and I know that is what
+                  brings me gyattiness. Although if I were to edge, I wouldn't gyatt to anyone.
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact us">
+        <h1 class="text-4xl text-center pt-10 pb-5">Submit an Inquiry</h1>
+        <div class="">
+            <div>
+                <h1 class="py-2">Name</h1>
+                <input type="text" name="name" placeholder=" Type your name" class="border border-gray-700 rounded-lg w-full h-10">
+            </div>
+            <div>
+                <h1 class="py-2">Email</h1>
+                <input type="text" name="email" placeholder=" Type your email" class="border border-gray-700 rounded-lg w-full h-10" class="p-2.5">
+            </div>
+            <div>
+                <h1 class="py-2">Business Name</h1>
+                <input type="text" name="Business" placeholder=" Eg. Asus Canada" class="border border-gray-700 rounded-lg w-full h-10">
+            </div>
+            <div>
+                <h1 class="py-2">Phone Number (including area code)</h1>
+                <input type="text" name="Phone" placeholder=" Eg. +1(111)-222-333" class="border border-gray-700 rounded-lg w-full h-10">
+            </div>
+            <div>
+                <h1 class="py-2">Message</h1>
+                <input type="text" name="Message" placeholder=" Any notes you may want our personnel to know." class="border border-gray-700 rounded-lg w-full h-20">
+            </div>
+        </div>
+    </section>
+
+    <footer class="relative overflow-hidden bg-gray-900 text-white h-12">
+        <div class="absolute animate-scroll px-4 text-2xl">
+            The Hangar
+        </div>
+    </footer>
+    
+    <footer class="relative overflow-hidden bg-gray-900 text-white h-12">
+        <div class="absolute animate-scroll text-2xl px-4">
+            ✈️ The Hangar — Premium Aircraft and Vehicles · Worldwide shipping · Call now · ✈️ The Hangar —
+        </div>
+    </footer>
+
+    
+</body>
+
+<!--  -->
+
+</html>
+
